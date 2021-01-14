@@ -63,12 +63,23 @@ function play(clickedId){
         if (board[i] === undefined) {
           boardFull = false;
         }
-      }
+      } 
       if (boardFull === true) {
         alert("Cat's game, there is no winner");
       }
 }
 
-function reset (){
+    // function click(){
+    //     const btn = document.createElement('button')
+    //     btn.innerText = 'RESET'
+    //     document.body.appendChild(btn)
 
-}
+    //     document.getElementsByTagName('button').onclick = function reset(){
+    //         if(board.length === 9 ||)
+    //     }
+    // }
+    // click()
+    
+// function reset(event){
+    
+// }
